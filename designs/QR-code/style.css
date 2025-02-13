@@ -1,0 +1,56 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", serif;
+  background-color: #D5E1EF;
+}
+
+.container {
+  background: transparent;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 320px;
+  height: 499px;
+  padding: 16px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.qr-code {
+  border-radius: 10px;
+  background-color: #2C7DFA;
+}
+
+.qr-code > img {
+  margin: 64px;
+  width: 160px;
+  height: 160px;
+}
+
+.text-container {
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title-text {
+  font-size: 22px;
+}
+
+.sub-text {
+  font-size: 15px;
+}
