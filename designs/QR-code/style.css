@@ -43,6 +43,7 @@ body {
 .text-container {
   padding: 24px 0;
   display: flex;
+  text-align: center;
   flex-direction: column;
   gap: 16px;
 }
